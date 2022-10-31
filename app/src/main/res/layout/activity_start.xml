@@ -11,6 +11,8 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:spinnerMode="dropdown"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,14 +23,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
         android:text="Select a category to learn a fact! :)"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/icon" />
 
     <TextView
         android:id="@+id/textview_fact"
@@ -47,13 +48,15 @@
         app:layout_constraintVertical_bias="0.025" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="169dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="36dp"
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="icon of factify"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/scribble" />
+        app:srcCompat="@drawable/factify_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

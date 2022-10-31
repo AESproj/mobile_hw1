@@ -2,14 +2,7 @@ package com.example.scribble
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextUtils
-import android.text.TextWatcher
-import android.view.View
 import android.widget.*
-import androidx.core.widget.doOnTextChanged
-import com.google.android.material.navigation.NavigationBarView
-
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
